@@ -6,9 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CreateAccountPage extends Utility {
-    {
-        PageFactory.initElements(driver, this);
-    }
+    public CreateAccountPage (){ PageFactory.initElements(driver, this);}
 
     @FindBy(id = "id_gender1")
     WebElement selectMaleRadioButton;

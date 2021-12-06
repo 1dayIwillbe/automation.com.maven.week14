@@ -17,7 +17,7 @@ public class WomenCatagoryPageTest extends TestBase {
     SoftAssert softAssert;
     WomenCategoryPage womenCategoryPage;
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"sanity","smoke","regression"})
     public void setup1() {
         homePage = new HomePage();
         signINPage = new SignINPage();

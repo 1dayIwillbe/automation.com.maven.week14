@@ -6,9 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SignINPage extends Utility {
-    {
-        PageFactory.initElements(driver, this);
-    }
+    public SignINPage(){ PageFactory.initElements(driver, this); }
 
     @FindBy(id = "email")
     WebElement clickOnEmail;

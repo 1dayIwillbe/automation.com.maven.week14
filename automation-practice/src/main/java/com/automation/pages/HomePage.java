@@ -6,9 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends Utility {
-    {
-        PageFactory.initElements(driver,this);
-    }
+   public HomePage() { PageFactory.initElements(driver,this); }
     @FindBy(xpath = "//a[@title='Women']")
     WebElement clickOnWomenLink;
     @FindBy(xpath = "(//a[@title='Dresses'][normalize-space()='Dresses'])[1]")

@@ -21,7 +21,7 @@ public class CreateAccountPageTest extends TestBase {
     SoftAssert softAssert;
     String timeStamp ;
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"sanity","smoke","regression"})
     public void set() {
         homePage = new HomePage();
         signINPage = new SignINPage();

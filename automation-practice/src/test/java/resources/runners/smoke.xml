@@ -6,7 +6,7 @@
             <include name="smoke"></include>
         </run>
     </groups>
-    <test name="Sanity Test">
+    <test name="Smoke Test">
         <classes>
             <class name="com.automation.testsuite.SignPageTest"></class>
             <class name="com.automation.testsuite.CreateAccountPageTest"></class>

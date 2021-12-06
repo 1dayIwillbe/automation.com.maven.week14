@@ -7,10 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class WomenCategoryPage extends Utility {
-
-    {
-        PageFactory.initElements(driver, this);
-    }
+    public WomenCategoryPage(){ PageFactory.initElements(driver, this); }
 
     @FindBy(xpath = "//h2[normalize-space()='Women']")
     WebElement verifyWomenWord;
