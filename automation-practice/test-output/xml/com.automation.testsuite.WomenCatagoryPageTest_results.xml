@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Listeners Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.694">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="6.690" classname="com.automation.testsuite.WomenCatagoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="6.432" classname="com.automation.testsuite.WomenCatagoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="7.116" classname="com.automation.testsuite.WomenCatagoryPageTest" />
+                <testcase name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" time="2.047" classname="com.automation.testsuite.WomenCatagoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="6.409" classname="com.automation.testsuite.WomenCatagoryPageTest" />
+      
+</testsuite>
